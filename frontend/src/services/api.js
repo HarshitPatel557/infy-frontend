@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://infy-backend-5xyz.onrender.com/',
   timeout: 15000,
   headers: { 'Content-Type': 'application/json' },
 })
